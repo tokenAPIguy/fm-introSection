@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+}
+:root {
+  /* Colors */
+  --almostWhite: hsl(0, 0%, 98%);
+  --mediumGrey: hsl(0, 0%, 41%);
+  --almostBlack: hsl(0, 0%, 8%);
+}
+
+body {
+  font-family: inherit;
+  font-size: inherit;
+}
+.attribution {
+  font-size: inherit;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.btn {
+  border-radius: 15px;
+}
+.client-tag {
+  margin: 50px 0px;
+}
+.custom-btn:hover {
+  background: var(--almostWhite);
+  color: var(--almostBlack);
+}
+.dropdown-icon {
+  padding-right: 15px;
+}
+.dropdown-item {
+  color: var(--mediumGrey) !important;
+}
+.main-content {
+  max-width: 80%;
+}
+.navbar-brand {
+  font-size: 36px;
+  font-weight: 700;
+}
+.nav-item {
+  padding: 0px 15px;
+}
+.section--title {
+  font-size: 72px;
+  font-weight: 700;
+}
